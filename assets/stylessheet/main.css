@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --regular-font: 'Poppins', sans-serif;
+    --bg-color: #6C757D;
+    --display-weight: 600;
+    --primary-font-color: white;
+    --secondary-font-color: #FFCF33;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--regular-font);
+    color: var(--primary-font-color);
+}
+
+#home .navbar img {
+    margin-top: 5vh;
+    margin-left: 8vh;
+}
+
+#home .navbar {
+    font: var(--regular-font);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 17vh;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#home .navbar #navstuffs{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vh;
+    font-size: 3vh;
+    margin-right: 2vh;
+    align-items: center;
+}
+
+#home .navbar #navstuffs a{
+    color: var(--primary-font-color);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#home .navbar #navstuffs a:hover {
+    font-size: 4vh;
+}
+
+#home #box1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#home #box1 .textmain{
+    margin-top: 50px;
+    margin-left: 159px;
+    margin-right: 100px;
+}
+
+#home #box1 .textmain #name{
+    line-height: 101px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+#home #box1 .textmain #text1{
+    font-size: 50px;
+    line-height: 76px;
+    font-weight: 600;
+    text-align: right;
+}
+
+#home #box1 .underline {
+    background: #FFCF33;
+    width: 100%;
+    height: 10px;
+}
+
+#about {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary-font-color);
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    text-align: center;
+}
+
+#about .texts{
+    margin: 30px;
+    font-size: 30px;
+}
+
+#about #text2 {
+    color: var(--secondary-font-color);
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+#projects .topbox{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#projects .box{
+    background-color: var(--secondary-font-color);
+    height: 170px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.522);
+    align-self: center;
+    color:var(--primary-font-color);
+    text-decoration: none;    
+}
+
+#projects .topbox .box .h1{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects .box .h1 span{
+    font-size: 50px;
+}
+
+#projects .box:hover{
+    transition: 0.5s;
+    height: 190px;
+    width: 220px;
+}
+
+#contacts {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+#contacts #logos{
+    color: var(--secondary-font-color);
+    display: flex;
+    flex-direction: row;
+}
