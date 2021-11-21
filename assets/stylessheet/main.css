@@ -137,6 +137,7 @@ body {
     align-self: center;
     color:var(--primary-font-color);
     text-decoration: none;    
+    transition: 0.5s;
 }
 
 #projects .topbox .box .h1{
@@ -148,14 +149,18 @@ body {
     justify-content: center;
 }
 
+#projects .topbox a{
+    text-decoration: none;
+}
+
 #projects .box .h1 span{
     font-size: 50px;
 }
 
 #projects .box:hover{
-    transition: 0.5s;
     height: 190px;
     width: 220px;
+    font-size: 3vh;
 }
 
 #contacts {
@@ -170,7 +175,25 @@ body {
 }
 
 #contacts #logos{
+    margin-top: 5vh;
+    margin: 6vh;
+    margin-left: 6vh;
+    margin-right: 6vh;
     color: var(--secondary-font-color);
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 }
+
+#contacts #logos a{
+    color: var(--secondary-font-color);
+    text-decoration: none;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+#contacts #logos a:hover {
+    font-size: 3vh;
+}
+
